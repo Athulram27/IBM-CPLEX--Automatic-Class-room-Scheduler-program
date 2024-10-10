@@ -1,0 +1,197 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: athul
+ * Creation Date: Jun 29, 2024 at 9:24:05 AM
+ *********************************************/
+Courses = {
+    "Economics for Business Research-0101",
+    "Quantitative Research Methods-0101",
+    "Introduction to the Business Value Chain-0101",
+    "Introduction to the Business Value Chain-FP01",
+    "Introduction to the Business Value Chain-FP02",
+    "Introduction to the Business Value Chain-FP03",
+    "Introduction to the Business Value Chain-FP04",
+    "Introduction to the Business Value Chain-FP05",
+    "Introduction to the Business Value Chain-FP06",
+    "Introduction to the Business Value Chain-FP07",
+    "Introduction to the Business Value Chain-FP08",
+    "Introduction to the Business Value Chain-FP09",
+    "Introduction to the Business Value Chain-FP10",
+    "The Future of You, Business and Society-FP01",
+    "The Future of You, Business and Society-FP02",
+    "Technology, Society, and the Future of Humanity-0101",
+    "Principles of Accounting I-0101",
+    "Principles of Accounting I-0201",
+    "Principles of Accounting I-0301",
+    "Principles of Accounting II-0101",
+    "Principles of Accounting II-0201",
+    "Business Statistics-0101",
+    "Business Statistics-0201",
+    "Business Statistics-0301",
+    "Why Good Managers Make Bad Decisions-0101",
+    "Challenge Your Thinking, Challenge the Conversation-0101",
+    "Introduction to Information Systems-0101",
+    "Introduction to Information Systems-0201",
+    "Introduction to Information Systems-0301",
+    "Introduction to Information Systems-0401",
+    "Introduction to Information Systems-0501",
+    "Introduction to Information Systems-0601",
+    "Introduction to Information Systems-0701",
+    "Introduction to Information Systems-FP01",
+    "Introduction to Information Systems-FP02"
+};
+
+
+Classrooms = { 
+	"VMH-1202", "VMH-1206", "VMH-1212", "VMH-1303", "VMH-1307", "VMH-1311",
+	"VMH-1314", "VMH-1330", "VMH-1333", "VMH-1335", "VMH-1336", "VMH-1412", 
+	"VMH-1415", "VMH-1418", "VMH-1505", "VMH-1511", "VMH-1518", "VMH-1520", 
+	"VMH-1524", "VMH-1528", "VMH-2203", "VMH-2505", "VMH-2509", "VMH-2511", 
+	"VMH-2534", "VMH-3330H", "VMH-3332", "VMH-3505", "VMH-3522", "VMH-4335", 
+	"VMH-4534", "VMH-4535" };
+	
+//Capacity
+Capacity = [
+    54, 45, 68, 60, 45, 40, 40, 65, 50, 58, 
+    50, 65, 45, 45, 65, 65, 38, 60, 250, 68,
+    38, 42, 20, 42, 12, 20, 12, 48, 24, 12, 
+    12, 12
+];	
+
+
+Days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+
+Enrolled = [
+    4, 4, 191, 36, 36, 34, 34, 35, 31, 31,
+    37, 33, 35, 25, 23, 34, 29, 59, 29, 29,
+    29, 29, 29, 29, 29, 29, 29, 29, 240, 30,
+    64, 65, 65, 65, 59 
+];
+
+Classes = [
+    1, 1, 2, 2, 2, 2, 1, 1, 1, 1,
+    1, 1, 2, 2, 2, 2, 2, 1, 2, 2,
+    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 
+    2, 2, 2, 2, 2
+];
+
+//weights
+Weight = [
+    1.56, 1.83, 1.41, 1.12, 1.74, 1.35, 1.89, 1.57, 1.68, 1.44, 
+    1.27, 1.62, 1.95, 1.55, 1.49, 1.71, 1.23, 1.84, 1.67, 1.37,
+    1.78, 1.2, 1, 1.59, 1.39, 1.81, 1.53, 1.19, 1.73, 1.98, 1.45, 
+    1.29, 1.36, 1.25, 1.43
+];
+
+Professors = {
+    "Ozbay, Erkut", "Zhang, Kunpeng", "Miller, Jeffrey", "Gardner, Leland", "Reyna, Justin",
+    "Mund, Jeffrey", "Milsom, Geoffrey", "Crocker, Jonathan", "Agarwal, Rajshree", "Schaaf, Christine",
+    "Anandalingam, Anand", "Basu, Progyan", "McMillan, Michael", "Zakota, Mark", "Studer-Ellis, Erich",
+    "Dastidar, Protiti", "Karake, Zeinab", "Shapiro, Paul", "Motwani, Bharti", "Bono, John",
+    "Lee, Adam", "Huang, Peng", "Zur, Emanuel", "Cao, Sean", "McNamee, Patrick",
+    "Solomon, Brent", "Zhang, Lu", "Loeb, Martin", "Milton, Jeffrey", "McKinney, James",
+    "Zhou, Lei", "Ruhi, Kazim", "Bardossy, Maria Gisela", "Padhi, Michael", "O'Brien, Terrence",
+    "Lee, Seokwoo", "Pavlovsky, Julie", "Han, Yueyang", "Fuller, Kenneth", "Toohey, Richard",
+    "Yaveroglu, Idil", "Lefkoff, Roxanne", "Ashery, Elie", "Zhou, Bobby", "Li, Andy",
+    "Choi, Jason", "Ratner, Rebecca", "Marr, Gregory", "Langa, Gosia", "Singh, Sheetal",
+    "Spriha, Yasha", "Thomason, Roy", "Johnson, Amber", "Jacobs, Alan", "Clifton, Tyrone",
+    "Anjorin, Rahman", "Powell, Susan", "McNaughton, Erica", "VanWagner, Adam", "Tungtisanont, Niratcha",
+    "Anenson, Leigh", "McGarry, Kevin", "Sherburne, Sue", "Chung, Wilbur", "Wang, Yunfei",
+    "Liu, Yizhi", "Ibrahim, Hassan", "Drasin, Joseph", "Raschid, Louiqa", "Laurence, Daniel",
+    "McCoy, James", "Lazar, Radu", "Golden, Bruce", "Kim, Sujin", "Seward, James",
+    "Kass, David", "Alp, Aysun", "Perfetti, Joseph", "Cichello, Michael", "McLemore, Ping",
+    "Wu, Chengjun", "Maksimovic, Vojislav", "Davis, Jeron", "Hsin, Jennifer", "Kroncke, Sarah",
+    "Zhang, Jie", "Harms, Mary", "Wain, Lance", "Shapiro, Debra", "Prochno, Paulo",
+    "Starr, Evan / Waguespack, David", "Kirsch, David", "Evers, Philip", "Wang, Ruifeng", "Zhang, Holly",
+    "Grover, Abhay", "Corsi, Thomas", "Moe, Wendy", "Lawrence, Jeffrey", "Shapiro, Paul",
+    "Macklin, Jessica", "Wesley, Clarence", "Hurst, Reuben", "Coomber, Nicole", "Seybert, Nicholas",
+    "Tunca, Tunay", "Mathews, Richmond", "Frels, Judy", "Wolek, Sarah", "Rozin, Rellie",
+    "Prasad, Kislaya", "Ramaprasad, Jui", "Ryzhov, Ilya", "Kozak, Serhiy", "Venkataramani, Vijaya",
+    "Chen, Gilad", "STAFF", "Ding, Waverly", "Ding, Waverly / Goldfarb, Brent", "Waguespack, David",
+    "Dresner, Martin", "Goldfarb, B. / Starr, E.", "Dennison, Darlene", "Handwerger, Samuel", "Ferris, Stacey",
+    "Harnish, Darian", "Gordon, Lawrence", "Jefferson, Brian", "Gillett, Cary", "Viswanathan, Sivakumar",
+    "Estes, Alexander", "Anand, Tejwansh / Bono, John", "Briggs, Alan / Rankel, Peter", "Neelakandan, Harish", "Xu, Yi",
+    "Crowley, Patrick Kenyon", "Acharya, Suresh", "Heston, Steven", "Faulkender, Michael", "Bustamante, M. Cecilia",
+    "Slutzky, Pablo", "Loewenstein, Mark", "Wermers, Russell", "Javadekar, Apoorva", "Rossi, Clifford",
+    "Coronado, Humberto", "Kabra, Ashish", "Harrington, Jewelyn", "Wedel, Michel", "Lucas, Melissa",
+    "Trusov, Michael", "Zelner, Bennet", "Chen, Zhi-Long", "Sampson, Rachelle", "Hann, Il-Horn", "Seo, Myeong-Gu",
+    "Bailey, Joseph"
+};
+
+
+
+// Mapping of courses to professors
+CourseProfessors = {
+	<"Economics for Business Research-0101","Ozbay, Erkut">,
+	<"Quantitative Research Methods-0101","Zhang, Kunpeng">,
+	<"Introduction to the Business Value Chain-0101","Miller, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP01","Gardner, Leland">,
+	<"Introduction to the Business Value Chain-FP02","Gardner, Leland">,
+	<"Introduction to the Business Value Chain-FP03","Reyna, Justin">,
+	<"Introduction to the Business Value Chain-FP04","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP05","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP06","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP07","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP08","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP09","Mund, Jeffrey">,
+	<"Introduction to the Business Value Chain-FP10","Milsom, Geoffrey">,
+	<"Introduction to the Business Value Chain-FP02","Crocker, Jonathan">,
+	<"Introduction to the Business Value Chain-FP03","Crocker, Jonathan">,
+	<"The Future of You, Business and Society-FP01","Agarwal, Rajshree">,
+	<"The Future of You, Business and Society-FP02","Schaaf, Christine">,
+	<"Technology, Society, and the Future of Humanity-0101","Anandalingam, Anand">,
+	<"Principles of Accounting I-0101","Basu, Progyan">,
+	<"Principles of Accounting I-0201","Basu, Progyan">,
+	<"Principles of Accounting I-0301","Basu, Progyan">,
+	<"Principles of Accounting II-0101","McMillan, Michael">,
+	<"Principles of Accounting II-0201","McMillan, Michael">,
+	<"Principles of Accounting II-0101","Zakota, Mark">,
+	<"Principles of Accounting II-0201","Zakota, Mark">,
+	<"Business Statistics-0101","Studer-Ellis, Erich">,
+	<"Business Statistics-0201","Studer-Ellis, Erich">,
+	<"Business Statistics-0301","Studer-Ellis, Erich">,
+	<"Why Good Managers Make Bad Decisions-0101","Miller, Jeffrey">,
+	<"Challenge Your Thinking, Challenge the Conversation-0101","Dastidar, Protiti">,
+	<"Introduction to Information Systems-0101","Karake, Zeinab">,
+	<"Introduction to Information Systems-0201","Karake, Zeinab">,
+	<"Introduction to Information Systems-0301","Shapiro, Paul">,
+	<"Introduction to Information Systems-0401","Motwani, Bharti">,
+	<"Introduction to Information Systems-0501","Motwani, Bharti">,
+	<"Introduction to Information Systems-0601","Motwani, Bharti">,
+	<"Introduction to Information Systems-0701","Motwani, Bharti">,
+	<"Introduction to Information Systems-FP01","Karake, Zeinab">,
+	<"Introduction to Information Systems-FP02","Karake, Zeinab">
+};
+
+ProfessorPreference = 
+  [
+  [[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1], [1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1]],
+[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1], [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1]],
+[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1], [-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1]],
+[[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1], [1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1]],
+[[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1], [1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1]],
+[[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1], [1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1]],
+[[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1], [1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1]],
+[[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1], [1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1]],
+[[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1], [-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1]],
+[[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1], [-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1]],
+[[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1], [1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1,1]],
+[[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1], [1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1,1]],
+[[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1], [1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1,1]],
+[[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1], [1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,-1]],
+[[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1], [1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1]],
+[[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1], [-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1]],
+[[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1], [1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1]],
+[[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1], [1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1,-1]],
+[[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1], [-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1,-1]],
+[[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1], [-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,0],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,0],[-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,-1,-1]],
+[[-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,0], [-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1,0]],
+[[-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1], [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,1,1,1,1,1]]
+];
+
+MaxDailyClasses =[
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+ 1, 1, 1, 1, 1];
+ 
